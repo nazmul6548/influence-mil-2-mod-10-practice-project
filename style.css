@@ -290,7 +290,7 @@ footer {
   .all-in-one {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    
   }
   .collection {
     margin-top: 50px;
