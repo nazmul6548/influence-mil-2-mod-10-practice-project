@@ -77,7 +77,7 @@ menu ul li a {
   line-height: normal;
 }
 .header-left-text{
-    width: 50%;
+    width: 60%;
 }
 .main-section {
   display: flex;
@@ -85,6 +85,8 @@ menu ul li a {
   align-items: center;
   padding-top: 50px;
   gap: 70px;
+  /* padding: 120px 70px; */
+  /* margin: 30px 40px; */
 }
 .header-right-img img{
     width: 100%;
@@ -95,6 +97,12 @@ menu ul li a {
   background-image: url("./Group\ 33090.png");
   background-repeat: no-repeat;
   background-position: center;
+ background-size: cover;
+ margin-top: 150px 90px;
+ height: 400px;
+ width: 400px;
+
+ padding-top: 40px 40px;
 }
 
 
@@ -122,8 +130,7 @@ menu ul li a {
         width: 100%;
     }
     .header-right-img{
-        /* width: 500px; */
-        /* padding: 20px; */
+        
 
     }
     .header-right-img img{
