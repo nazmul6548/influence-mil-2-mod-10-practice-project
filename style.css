@@ -192,7 +192,7 @@ menu ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 90px;
+  gap: 110px;
 }
 .rightside-text p {
   padding-bottom: 25px;
