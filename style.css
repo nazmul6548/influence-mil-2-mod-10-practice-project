@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Josefin+Sans:ital@1&family=Kalnia:wght@200;300&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700;800&family=Poppins:wght@300;400;800;900&family=Rubik+Maps&family=Work+Sans:wght@400;500;600;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.paragraph {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .container {
   max-width: 100%;
@@ -18,12 +28,12 @@ nav {
   padding-top: 50px;
 }
 nav h5 {
-  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
 }
 menu ul {
   display: flex;
@@ -36,11 +46,53 @@ menu ul li {
 }
 menu ul li a {
   text-decoration: none;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   color: #3a3a3a;
   font-feature-settings: "clig" off, "liga" off;
+}
+.header-left-text h1 {
+  margin-bottom: 15px;
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.header-left-text p {
+  padding-bottom: 15px;
+}
+.btn {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 8px 25px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-left-text{
+    width: 50%;
+}
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  gap: 70px;
+}
+.header-right-img img{
+    width: 100%;
+    padding: 30px;
+}
+/*  */
+.header-right-img {
+  background-image: url("./Group\ 33090.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
