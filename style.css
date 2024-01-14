@@ -104,6 +104,21 @@ menu ul li a {
 
  padding-top: 40px 40px;
 }
+/*  */
+
+
+/*  */
+.company-logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#fff;
+    box-shadow: 0 10px 10px 0 aliceblue;
+    padding: 80px;
+    margin-top: 80px;
+}
+/*  */
+
 
 
 
@@ -144,6 +159,12 @@ menu ul li a {
     .header-left-text p{
         padding-bottom: 15px;
         margin-bottom: 0;
+    }
+    /*  */
+    .company-logos{
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 0;
     }
     
 }
