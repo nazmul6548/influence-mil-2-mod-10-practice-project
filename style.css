@@ -96,3 +96,47 @@ menu ul li a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
+
+
+
+
+
+
+
+/*  */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    menu ul{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .header-left-text{
+        text-align: center;
+        width: 100%;
+    }
+    .header-right-img{
+        /* width: 500px; */
+        /* padding: 20px; */
+
+    }
+    .header-right-img img{
+        width: 100%;
+        /* padding: 10px;*/
+    }
+    .header-left-text h1{
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+    .header-left-text p{
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+    
+}
