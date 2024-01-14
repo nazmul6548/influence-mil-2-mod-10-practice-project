@@ -287,4 +287,7 @@ line-height: 60px;
     .rightside-text{
         text-align: center;
     }
+    .lftside-tmg img{
+        width: 100%;
+    }
 }
