@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Josefin+Sans:ital@1&family=Kalnia:wght@200;300&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700;800&family=Poppins:wght@300;400;800;900&family=Rubik+Maps&family=Work+Sans:wght@400;500;600;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.paragraph {
+.paragraph,.rightside-text p {
   color: #3a3a3a;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
 }
 .container {
@@ -191,6 +192,28 @@ letter-spacing: 0.252px;
 }
 
 
+/*  */
+.all-img-and-text{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.rightside-text p{
+    padding-bottom: 25px;
+    
+}
+.rightside-text h1{
+    color: #0A0826;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+
+
 
 
 
@@ -253,5 +276,15 @@ letter-spacing: 0.252px;
     }
     .collection{
         margin-top: 50px;
+    }
+    /*  */
+    
+    .all-img-and-text{
+        flex-direction: column-reverse;
+        gap: 70px;
+        margin-top: 70px;
+    }
+    .rightside-text{
+        text-align: center;
     }
 }
